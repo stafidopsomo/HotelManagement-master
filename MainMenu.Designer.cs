@@ -1012,7 +1012,7 @@ namespace HotelManagement
             // noPrevResvLabel
             // 
             this.noPrevResvLabel.AutoSize = true;
-            this.noPrevResvLabel.BackColor = System.Drawing.Color.Transparent;
+            this.noPrevResvLabel.BackColor = System.Drawing.Color.SlateGray;
             this.noPrevResvLabel.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.noPrevResvLabel.ForeColor = System.Drawing.Color.Transparent;
             this.noPrevResvLabel.Location = new System.Drawing.Point(273, 508);
@@ -1069,7 +1069,7 @@ namespace HotelManagement
             // prevResvLabel
             // 
             this.prevResvLabel.AutoSize = true;
-            this.prevResvLabel.BackColor = System.Drawing.Color.Transparent;
+            this.prevResvLabel.BackColor = System.Drawing.Color.SlateGray;
             this.prevResvLabel.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.prevResvLabel.ForeColor = System.Drawing.Color.Transparent;
             this.prevResvLabel.Location = new System.Drawing.Point(284, 393);
@@ -1082,7 +1082,7 @@ namespace HotelManagement
             // noCurrResvLabel
             // 
             this.noCurrResvLabel.AutoSize = true;
-            this.noCurrResvLabel.BackColor = System.Drawing.Color.Transparent;
+            this.noCurrResvLabel.BackColor = System.Drawing.Color.SlateGray;
             this.noCurrResvLabel.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.noCurrResvLabel.ForeColor = System.Drawing.Color.Transparent;
             this.noCurrResvLabel.Location = new System.Drawing.Point(273, 152);
@@ -1139,7 +1139,7 @@ namespace HotelManagement
             // currResvLabel
             // 
             this.currResvLabel.AutoSize = true;
-            this.currResvLabel.BackColor = System.Drawing.Color.Transparent;
+            this.currResvLabel.BackColor = System.Drawing.Color.SlateGray;
             this.currResvLabel.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currResvLabel.ForeColor = System.Drawing.Color.Transparent;
             this.currResvLabel.Location = new System.Drawing.Point(321, 31);
