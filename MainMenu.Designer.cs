@@ -29,15 +29,15 @@ namespace HotelManagement
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -205,7 +205,7 @@ namespace HotelManagement
             // welcomeLabel
             // 
             this.welcomeLabel.AutoSize = true;
-            this.welcomeLabel.BackColor = System.Drawing.Color.Teal;
+            this.welcomeLabel.BackColor = System.Drawing.Color.SlateGray;
             this.welcomeLabel.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.welcomeLabel.ForeColor = System.Drawing.Color.Transparent;
             this.welcomeLabel.Location = new System.Drawing.Point(4, 2);
@@ -334,7 +334,7 @@ namespace HotelManagement
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Teal;
+            this.label15.BackColor = System.Drawing.Color.SlateGray;
             this.label15.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.label15.ForeColor = System.Drawing.Color.Transparent;
             this.label15.Location = new System.Drawing.Point(61, 356);
@@ -347,7 +347,7 @@ namespace HotelManagement
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Teal;
+            this.label13.BackColor = System.Drawing.Color.SlateGray;
             this.label13.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.label13.ForeColor = System.Drawing.Color.Transparent;
             this.label13.Location = new System.Drawing.Point(325, 11);
@@ -373,7 +373,7 @@ namespace HotelManagement
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Teal;
+            this.label12.BackColor = System.Drawing.Color.SlateGray;
             this.label12.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label12.ForeColor = System.Drawing.Color.Transparent;
             this.label12.Location = new System.Drawing.Point(232, 251);
@@ -394,7 +394,7 @@ namespace HotelManagement
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Teal;
+            this.label10.BackColor = System.Drawing.Color.SlateGray;
             this.label10.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.Color.Transparent;
             this.label10.Location = new System.Drawing.Point(569, 250);
@@ -415,7 +415,7 @@ namespace HotelManagement
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Teal;
+            this.label9.BackColor = System.Drawing.Color.SlateGray;
             this.label9.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.Transparent;
             this.label9.Location = new System.Drawing.Point(411, 250);
@@ -436,7 +436,7 @@ namespace HotelManagement
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Teal;
+            this.label7.BackColor = System.Drawing.Color.SlateGray;
             this.label7.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.Transparent;
             this.label7.Location = new System.Drawing.Point(69, 251);
@@ -457,7 +457,7 @@ namespace HotelManagement
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Teal;
+            this.label6.BackColor = System.Drawing.Color.SlateGray;
             this.label6.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.Transparent;
             this.label6.Location = new System.Drawing.Point(13, 197);
@@ -470,7 +470,7 @@ namespace HotelManagement
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Teal;
+            this.label5.BackColor = System.Drawing.Color.SlateGray;
             this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.Transparent;
             this.label5.Location = new System.Drawing.Point(13, 106);
@@ -496,7 +496,7 @@ namespace HotelManagement
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Teal;
+            this.label4.BackColor = System.Drawing.Color.SlateGray;
             this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.Transparent;
             this.label4.Location = new System.Drawing.Point(391, 106);
@@ -544,7 +544,7 @@ namespace HotelManagement
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Teal;
+            this.label3.BackColor = System.Drawing.Color.SlateGray;
             this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.Transparent;
             this.label3.Location = new System.Drawing.Point(542, 106);
@@ -575,7 +575,7 @@ namespace HotelManagement
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Teal;
+            this.label2.BackColor = System.Drawing.Color.SlateGray;
             this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(239, 106);
@@ -630,7 +630,7 @@ namespace HotelManagement
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Teal;
+            this.label1.BackColor = System.Drawing.Color.SlateGray;
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(13, 52);
@@ -644,8 +644,8 @@ namespace HotelManagement
             // 
             this.employeePanel.Controls.Add(this.topRightPanel);
             this.employeePanel.Controls.Add(this.flowLayoutPanel1);
-            this.employeePanel.Controls.Add(this.resultsPanel);
             this.employeePanel.Controls.Add(this.homePanel);
+            this.employeePanel.Controls.Add(this.resultsPanel);
             this.employeePanel.Controls.Add(this.searchPanel);
             this.employeePanel.Location = new System.Drawing.Point(12, 3);
             this.employeePanel.Name = "employeePanel";
@@ -682,7 +682,7 @@ namespace HotelManagement
             // resultsLabel
             // 
             this.resultsLabel.AutoSize = true;
-            this.resultsLabel.BackColor = System.Drawing.Color.Teal;
+            this.resultsLabel.BackColor = System.Drawing.Color.SlateGray;
             this.resultsLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.resultsLabel.ForeColor = System.Drawing.Color.Transparent;
             this.resultsLabel.Location = new System.Drawing.Point(13, 27);
@@ -738,7 +738,7 @@ namespace HotelManagement
             // noDeparturesLabel
             // 
             this.noDeparturesLabel.AutoSize = true;
-            this.noDeparturesLabel.BackColor = System.Drawing.Color.Teal;
+            this.noDeparturesLabel.BackColor = System.Drawing.Color.SlateGray;
             this.noDeparturesLabel.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.noDeparturesLabel.ForeColor = System.Drawing.Color.Transparent;
             this.noDeparturesLabel.Location = new System.Drawing.Point(106, 455);
@@ -751,7 +751,7 @@ namespace HotelManagement
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Teal;
+            this.label14.BackColor = System.Drawing.Color.SlateGray;
             this.label14.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.label14.ForeColor = System.Drawing.Color.Transparent;
             this.label14.Location = new System.Drawing.Point(15, 342);
@@ -801,7 +801,7 @@ namespace HotelManagement
             // noArrivalsLabel
             // 
             this.noArrivalsLabel.AutoSize = true;
-            this.noArrivalsLabel.BackColor = System.Drawing.Color.Teal;
+            this.noArrivalsLabel.BackColor = System.Drawing.Color.SlateGray;
             this.noArrivalsLabel.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.noArrivalsLabel.ForeColor = System.Drawing.Color.Transparent;
             this.noArrivalsLabel.Location = new System.Drawing.Point(144, 161);
@@ -830,7 +830,7 @@ namespace HotelManagement
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Teal;
+            this.label11.BackColor = System.Drawing.Color.SlateGray;
             this.label11.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.label11.ForeColor = System.Drawing.Color.Transparent;
             this.label11.Location = new System.Drawing.Point(15, 42);
@@ -843,7 +843,7 @@ namespace HotelManagement
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Teal;
+            this.label8.BackColor = System.Drawing.Color.SlateGray;
             this.label8.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.Transparent;
             this.label8.Location = new System.Drawing.Point(325, 12);
@@ -1029,35 +1029,35 @@ namespace HotelManagement
             this.dataGridView6.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView6.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             this.dataGridView6.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView6.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView6.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
             this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView6.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView6.DefaultCellStyle = dataGridViewCellStyle20;
             this.dataGridView6.Location = new System.Drawing.Point(23, 438);
             this.dataGridView6.MultiSelect = false;
             this.dataGridView6.Name = "dataGridView6";
             this.dataGridView6.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView6.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView6.RowHeadersDefaultCellStyle = dataGridViewCellStyle21;
             this.dataGridView6.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView6.ShowCellErrors = false;
             this.dataGridView6.ShowCellToolTips = false;
@@ -1099,35 +1099,35 @@ namespace HotelManagement
             this.dataGridView5.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView5.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             this.dataGridView5.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView5.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView5.DefaultCellStyle = dataGridViewCellStyle23;
             this.dataGridView5.Location = new System.Drawing.Point(23, 79);
             this.dataGridView5.MultiSelect = false;
             this.dataGridView5.Name = "dataGridView5";
             this.dataGridView5.ReadOnly = true;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView5.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView5.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
             this.dataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView5.ShowCellErrors = false;
             this.dataGridView5.ShowCellToolTips = false;
@@ -1195,7 +1195,7 @@ namespace HotelManagement
             // resultsLabelCust
             // 
             this.resultsLabelCust.AutoSize = true;
-            this.resultsLabelCust.BackColor = System.Drawing.Color.Teal;
+            this.resultsLabelCust.BackColor = System.Drawing.Color.SlateGray;
             this.resultsLabelCust.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.resultsLabelCust.ForeColor = System.Drawing.Color.Transparent;
             this.resultsLabelCust.Location = new System.Drawing.Point(65, 202);
@@ -1212,35 +1212,35 @@ namespace HotelManagement
             this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView4.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             this.dataGridView4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle25.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle25.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle26;
             this.dataGridView4.Location = new System.Drawing.Point(151, 256);
             this.dataGridView4.MultiSelect = false;
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.ReadOnly = true;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView4.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.RowHeadersDefaultCellStyle = dataGridViewCellStyle27;
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView4.ShowCellErrors = false;
             this.dataGridView4.ShowCellToolTips = false;
@@ -1252,7 +1252,7 @@ namespace HotelManagement
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Teal;
+            this.label18.BackColor = System.Drawing.Color.SlateGray;
             this.label18.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.label18.ForeColor = System.Drawing.Color.Transparent;
             this.label18.Location = new System.Drawing.Point(198, 25);
@@ -1278,7 +1278,7 @@ namespace HotelManagement
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Teal;
+            this.label17.BackColor = System.Drawing.Color.SlateGray;
             this.label17.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label17.ForeColor = System.Drawing.Color.Transparent;
             this.label17.Location = new System.Drawing.Point(292, 96);
@@ -1291,7 +1291,7 @@ namespace HotelManagement
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Teal;
+            this.label16.BackColor = System.Drawing.Color.SlateGray;
             this.label16.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label16.ForeColor = System.Drawing.Color.Transparent;
             this.label16.Location = new System.Drawing.Point(60, 96);
@@ -1458,7 +1458,7 @@ namespace HotelManagement
             // familyLabel
             // 
             this.familyLabel.AutoSize = true;
-            this.familyLabel.BackColor = System.Drawing.Color.Teal;
+            this.familyLabel.BackColor = System.Drawing.Color.SlateGray;
             this.familyLabel.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.familyLabel.ForeColor = System.Drawing.Color.Transparent;
             this.familyLabel.Location = new System.Drawing.Point(509, 617);
@@ -1484,7 +1484,7 @@ namespace HotelManagement
             // smokersLabel
             // 
             this.smokersLabel.AutoSize = true;
-            this.smokersLabel.BackColor = System.Drawing.Color.Teal;
+            this.smokersLabel.BackColor = System.Drawing.Color.SlateGray;
             this.smokersLabel.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.smokersLabel.ForeColor = System.Drawing.Color.Transparent;
             this.smokersLabel.Location = new System.Drawing.Point(509, 535);
@@ -1497,7 +1497,7 @@ namespace HotelManagement
             // acLabel
             // 
             this.acLabel.AutoSize = true;
-            this.acLabel.BackColor = System.Drawing.Color.Teal;
+            this.acLabel.BackColor = System.Drawing.Color.SlateGray;
             this.acLabel.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.acLabel.ForeColor = System.Drawing.Color.Transparent;
             this.acLabel.Location = new System.Drawing.Point(60, 537);
@@ -1510,7 +1510,7 @@ namespace HotelManagement
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Teal;
+            this.label19.BackColor = System.Drawing.Color.SlateGray;
             this.label19.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.label19.ForeColor = System.Drawing.Color.Transparent;
             this.label19.Location = new System.Drawing.Point(319, 473);
@@ -1545,7 +1545,7 @@ namespace HotelManagement
             // roomInfoLabel
             // 
             this.roomInfoLabel.AutoSize = true;
-            this.roomInfoLabel.BackColor = System.Drawing.Color.Teal;
+            this.roomInfoLabel.BackColor = System.Drawing.Color.SlateGray;
             this.roomInfoLabel.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.roomInfoLabel.ForeColor = System.Drawing.Color.Transparent;
             this.roomInfoLabel.Location = new System.Drawing.Point(226, 16);
@@ -1584,7 +1584,7 @@ namespace HotelManagement
             // heaterLabel
             // 
             this.heaterLabel.AutoSize = true;
-            this.heaterLabel.BackColor = System.Drawing.Color.Teal;
+            this.heaterLabel.BackColor = System.Drawing.Color.SlateGray;
             this.heaterLabel.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.heaterLabel.ForeColor = System.Drawing.Color.Transparent;
             this.heaterLabel.Location = new System.Drawing.Point(60, 621);
@@ -1610,7 +1610,7 @@ namespace HotelManagement
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Teal;
+            this.label24.BackColor = System.Drawing.Color.SlateGray;
             this.label24.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.label24.ForeColor = System.Drawing.Color.Transparent;
             this.label24.Location = new System.Drawing.Point(215, 529);
@@ -1624,7 +1624,7 @@ namespace HotelManagement
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Teal;
+            this.label23.BackColor = System.Drawing.Color.SlateGray;
             this.label23.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.label23.ForeColor = System.Drawing.Color.Transparent;
             this.label23.Location = new System.Drawing.Point(135, 224);
@@ -1637,7 +1637,7 @@ namespace HotelManagement
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Teal;
+            this.label22.BackColor = System.Drawing.Color.SlateGray;
             this.label22.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.label22.ForeColor = System.Drawing.Color.Transparent;
             this.label22.Location = new System.Drawing.Point(199, 130);
@@ -1652,7 +1652,7 @@ namespace HotelManagement
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.Teal;
+            this.label21.BackColor = System.Drawing.Color.SlateGray;
             this.label21.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.label21.ForeColor = System.Drawing.Color.Transparent;
             this.label21.Location = new System.Drawing.Point(83, 36);
@@ -1767,7 +1767,7 @@ namespace HotelManagement
             // surnameLabel
             // 
             this.surnameLabel.AutoSize = true;
-            this.surnameLabel.BackColor = System.Drawing.Color.Teal;
+            this.surnameLabel.BackColor = System.Drawing.Color.SlateGray;
             this.surnameLabel.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.surnameLabel.ForeColor = System.Drawing.Color.Transparent;
             this.surnameLabel.Location = new System.Drawing.Point(423, 54);
@@ -1780,7 +1780,7 @@ namespace HotelManagement
             // usernameLabel
             // 
             this.usernameLabel.AutoSize = true;
-            this.usernameLabel.BackColor = System.Drawing.Color.Teal;
+            this.usernameLabel.BackColor = System.Drawing.Color.SlateGray;
             this.usernameLabel.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.usernameLabel.ForeColor = System.Drawing.Color.Transparent;
             this.usernameLabel.Location = new System.Drawing.Point(73, 132);
@@ -1793,7 +1793,7 @@ namespace HotelManagement
             // emailLabel
             // 
             this.emailLabel.AutoSize = true;
-            this.emailLabel.BackColor = System.Drawing.Color.Teal;
+            this.emailLabel.BackColor = System.Drawing.Color.SlateGray;
             this.emailLabel.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.emailLabel.ForeColor = System.Drawing.Color.Transparent;
             this.emailLabel.Location = new System.Drawing.Point(423, 133);
@@ -1806,7 +1806,7 @@ namespace HotelManagement
             // passLabel
             // 
             this.passLabel.AutoSize = true;
-            this.passLabel.BackColor = System.Drawing.Color.Teal;
+            this.passLabel.BackColor = System.Drawing.Color.SlateGray;
             this.passLabel.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.passLabel.ForeColor = System.Drawing.Color.Transparent;
             this.passLabel.Location = new System.Drawing.Point(73, 212);
@@ -1819,7 +1819,7 @@ namespace HotelManagement
             // addressLabel
             // 
             this.addressLabel.AutoSize = true;
-            this.addressLabel.BackColor = System.Drawing.Color.Teal;
+            this.addressLabel.BackColor = System.Drawing.Color.SlateGray;
             this.addressLabel.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.addressLabel.ForeColor = System.Drawing.Color.Transparent;
             this.addressLabel.Location = new System.Drawing.Point(423, 212);
@@ -1832,7 +1832,7 @@ namespace HotelManagement
             // phoneLabel
             // 
             this.phoneLabel.AutoSize = true;
-            this.phoneLabel.BackColor = System.Drawing.Color.Teal;
+            this.phoneLabel.BackColor = System.Drawing.Color.SlateGray;
             this.phoneLabel.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.phoneLabel.ForeColor = System.Drawing.Color.Transparent;
             this.phoneLabel.Location = new System.Drawing.Point(273, 370);
@@ -1845,7 +1845,7 @@ namespace HotelManagement
             // regionLabel
             // 
             this.regionLabel.AutoSize = true;
-            this.regionLabel.BackColor = System.Drawing.Color.Teal;
+            this.regionLabel.BackColor = System.Drawing.Color.SlateGray;
             this.regionLabel.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.regionLabel.ForeColor = System.Drawing.Color.Transparent;
             this.regionLabel.Location = new System.Drawing.Point(77, 291);
@@ -1858,7 +1858,7 @@ namespace HotelManagement
             // countryLabel
             // 
             this.countryLabel.AutoSize = true;
-            this.countryLabel.BackColor = System.Drawing.Color.Teal;
+            this.countryLabel.BackColor = System.Drawing.Color.SlateGray;
             this.countryLabel.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.countryLabel.ForeColor = System.Drawing.Color.Transparent;
             this.countryLabel.Location = new System.Drawing.Point(433, 295);
@@ -1871,7 +1871,7 @@ namespace HotelManagement
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.BackColor = System.Drawing.Color.Teal;
+            this.nameLabel.BackColor = System.Drawing.Color.SlateGray;
             this.nameLabel.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
             this.nameLabel.ForeColor = System.Drawing.Color.Transparent;
             this.nameLabel.Location = new System.Drawing.Point(73, 54);
@@ -1931,7 +1931,7 @@ namespace HotelManagement
             // ammountLabel
             // 
             this.ammountLabel.AutoSize = true;
-            this.ammountLabel.BackColor = System.Drawing.Color.Teal;
+            this.ammountLabel.BackColor = System.Drawing.Color.SlateGray;
             this.ammountLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.ammountLabel.ForeColor = System.Drawing.Color.Transparent;
             this.ammountLabel.Location = new System.Drawing.Point(145, 494);
@@ -1953,7 +1953,7 @@ namespace HotelManagement
             // beneficiaryLabel
             // 
             this.beneficiaryLabel.AutoSize = true;
-            this.beneficiaryLabel.BackColor = System.Drawing.Color.Teal;
+            this.beneficiaryLabel.BackColor = System.Drawing.Color.SlateGray;
             this.beneficiaryLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.beneficiaryLabel.ForeColor = System.Drawing.Color.Transparent;
             this.beneficiaryLabel.Location = new System.Drawing.Point(135, 430);
@@ -1984,7 +1984,7 @@ namespace HotelManagement
             // expireLabel
             // 
             this.expireLabel.AutoSize = true;
-            this.expireLabel.BackColor = System.Drawing.Color.Teal;
+            this.expireLabel.BackColor = System.Drawing.Color.SlateGray;
             this.expireLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.expireLabel.ForeColor = System.Drawing.Color.Transparent;
             this.expireLabel.Location = new System.Drawing.Point(135, 348);
@@ -1997,7 +1997,7 @@ namespace HotelManagement
             // CVLabel
             // 
             this.CVLabel.AutoSize = true;
-            this.CVLabel.BackColor = System.Drawing.Color.Teal;
+            this.CVLabel.BackColor = System.Drawing.Color.SlateGray;
             this.CVLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.CVLabel.ForeColor = System.Drawing.Color.Transparent;
             this.CVLabel.Location = new System.Drawing.Point(135, 268);
@@ -2024,7 +2024,7 @@ namespace HotelManagement
             // creditNumLabel
             // 
             this.creditNumLabel.AutoSize = true;
-            this.creditNumLabel.BackColor = System.Drawing.Color.Teal;
+            this.creditNumLabel.BackColor = System.Drawing.Color.SlateGray;
             this.creditNumLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.creditNumLabel.ForeColor = System.Drawing.Color.Transparent;
             this.creditNumLabel.Location = new System.Drawing.Point(135, 189);
@@ -2046,7 +2046,7 @@ namespace HotelManagement
             // bookingPaymentLabel
             // 
             this.bookingPaymentLabel.AutoSize = true;
-            this.bookingPaymentLabel.BackColor = System.Drawing.Color.Teal;
+            this.bookingPaymentLabel.BackColor = System.Drawing.Color.SlateGray;
             this.bookingPaymentLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.bookingPaymentLabel.ForeColor = System.Drawing.Color.Transparent;
             this.bookingPaymentLabel.Location = new System.Drawing.Point(180, 123);
@@ -2059,7 +2059,7 @@ namespace HotelManagement
             // paymentLabel
             // 
             this.paymentLabel.AutoSize = true;
-            this.paymentLabel.BackColor = System.Drawing.Color.Teal;
+            this.paymentLabel.BackColor = System.Drawing.Color.SlateGray;
             this.paymentLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
             this.paymentLabel.ForeColor = System.Drawing.Color.Transparent;
             this.paymentLabel.Location = new System.Drawing.Point(321, 30);
