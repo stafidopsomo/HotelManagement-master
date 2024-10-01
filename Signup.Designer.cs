@@ -83,37 +83,37 @@ namespace HotelManagement
             // surnameL
             // 
             this.surnameL.AutoSize = true;
-            this.surnameL.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
+            this.surnameL.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.surnameL.ForeColor = System.Drawing.Color.White;
-            this.surnameL.Location = new System.Drawing.Point(321, 8);
+            this.surnameL.Location = new System.Drawing.Point(322, 14);
             this.surnameL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.surnameL.Name = "surnameL";
-            this.surnameL.Size = new System.Drawing.Size(107, 30);
+            this.surnameL.Size = new System.Drawing.Size(83, 23);
             this.surnameL.TabIndex = 0;
             this.surnameL.Text = "Επώνυμο";
             // 
             // nameL
             // 
             this.nameL.AutoSize = true;
-            this.nameL.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
+            this.nameL.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.nameL.ForeColor = System.Drawing.Color.Transparent;
-            this.nameL.Location = new System.Drawing.Point(6, 8);
+            this.nameL.Location = new System.Drawing.Point(7, 14);
             this.nameL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameL.Name = "nameL";
-            this.nameL.Size = new System.Drawing.Size(83, 30);
+            this.nameL.Size = new System.Drawing.Size(62, 23);
             this.nameL.TabIndex = 0;
             this.nameL.Text = "Όνομα";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Teal;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 24.25F, System.Drawing.FontStyle.Bold);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(127, 24);
+            this.label1.Location = new System.Drawing.Point(163, 31);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(433, 45);
+            this.label1.Size = new System.Drawing.Size(353, 37);
             this.label1.TabIndex = 24;
             this.label1.Text = "Εγγραφή στην πλατφόρμα";
             // 
@@ -142,24 +142,24 @@ namespace HotelManagement
             // emailL
             // 
             this.emailL.AutoSize = true;
-            this.emailL.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
+            this.emailL.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.emailL.ForeColor = System.Drawing.Color.White;
-            this.emailL.Location = new System.Drawing.Point(321, 102);
+            this.emailL.Location = new System.Drawing.Point(322, 108);
             this.emailL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.emailL.Name = "emailL";
-            this.emailL.Size = new System.Drawing.Size(75, 30);
+            this.emailL.Size = new System.Drawing.Size(56, 23);
             this.emailL.TabIndex = 25;
             this.emailL.Text = "E-mail";
             // 
             // usernameL
             // 
             this.usernameL.AutoSize = true;
-            this.usernameL.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
+            this.usernameL.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.usernameL.ForeColor = System.Drawing.Color.Transparent;
-            this.usernameL.Location = new System.Drawing.Point(6, 102);
+            this.usernameL.Location = new System.Drawing.Point(7, 108);
             this.usernameL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.usernameL.Name = "usernameL";
-            this.usernameL.Size = new System.Drawing.Size(112, 30);
+            this.usernameL.Size = new System.Drawing.Size(87, 23);
             this.usernameL.TabIndex = 26;
             this.usernameL.Text = "Username";
             // 
@@ -190,31 +190,31 @@ namespace HotelManagement
             // pass1L
             // 
             this.pass1L.AutoSize = true;
-            this.pass1L.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.pass1L.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.pass1L.ForeColor = System.Drawing.Color.Transparent;
-            this.pass1L.Location = new System.Drawing.Point(6, 202);
+            this.pass1L.Location = new System.Drawing.Point(7, 208);
             this.pass1L.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pass1L.Name = "pass1L";
-            this.pass1L.Size = new System.Drawing.Size(191, 25);
+            this.pass1L.Size = new System.Drawing.Size(170, 23);
             this.pass1L.TabIndex = 30;
             this.pass1L.Text = "Κωδικός πρόσβασης";
             // 
             // pass2L
             // 
             this.pass2L.AutoSize = true;
-            this.pass2L.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.pass2L.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.pass2L.ForeColor = System.Drawing.Color.Transparent;
-            this.pass2L.Location = new System.Drawing.Point(321, 202);
+            this.pass2L.Location = new System.Drawing.Point(322, 208);
             this.pass2L.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pass2L.Name = "pass2L";
-            this.pass2L.Size = new System.Drawing.Size(200, 25);
+            this.pass2L.Size = new System.Drawing.Size(173, 23);
             this.pass2L.TabIndex = 33;
             this.pass2L.Text = "Επαλήθευση κωδικού";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Yu Gothic UI", 14.75F, System.Drawing.FontStyle.Bold);
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(267, 413);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
@@ -280,12 +280,12 @@ namespace HotelManagement
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label4.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label4.ForeColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(16, 396);
+            this.label4.Location = new System.Drawing.Point(17, 402);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 25);
+            this.label4.Size = new System.Drawing.Size(53, 23);
             this.label4.TabIndex = 46;
             this.label4.Text = "Χώρα";
             // 
@@ -300,12 +300,12 @@ namespace HotelManagement
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Yu Gothic UI", 13.25F, System.Drawing.FontStyle.Bold);
+            this.label6.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(308, 396);
+            this.label6.Location = new System.Drawing.Point(309, 402);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(216, 25);
+            this.label6.Size = new System.Drawing.Size(195, 23);
             this.label6.TabIndex = 43;
             this.label6.Text = "Τηλέφωνο Επικοινωνίας";
             // 
@@ -323,12 +323,12 @@ namespace HotelManagement
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label5.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label5.ForeColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(316, 300);
+            this.label5.Location = new System.Drawing.Point(317, 306);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 25);
+            this.label5.Size = new System.Drawing.Size(71, 23);
             this.label5.TabIndex = 41;
             this.label5.Text = "Περιοχή";
             // 
@@ -346,12 +346,12 @@ namespace HotelManagement
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label3.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(11, 300);
+            this.label3.Location = new System.Drawing.Point(12, 306);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(176, 25);
+            this.label3.Size = new System.Drawing.Size(150, 23);
             this.label3.TabIndex = 37;
             this.label3.Text = "Πλήρης Διεύθυνση";
             // 
@@ -370,7 +370,7 @@ namespace HotelManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Teal;
+            this.BackColor = System.Drawing.Color.SlateGray;
             this.ClientSize = new System.Drawing.Size(686, 509);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.s);

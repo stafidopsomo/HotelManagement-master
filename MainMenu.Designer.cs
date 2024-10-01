@@ -29,15 +29,15 @@ namespace HotelManagement
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -855,6 +855,7 @@ namespace HotelManagement
             // 
             // customerPanel
             // 
+            this.customerPanel.BackColor = System.Drawing.Color.SlateGray;
             this.customerPanel.Controls.Add(this.panel3);
             this.customerPanel.Controls.Add(this.flowLayoutPanel2);
             this.customerPanel.Controls.Add(this.custBookingsPanel);
@@ -879,13 +880,13 @@ namespace HotelManagement
             // welcomeLabelCust
             // 
             this.welcomeLabelCust.AutoSize = true;
-            this.welcomeLabelCust.BackColor = System.Drawing.Color.Teal;
-            this.welcomeLabelCust.Font = new System.Drawing.Font("Yu Gothic UI", 16.25F, System.Drawing.FontStyle.Bold);
+            this.welcomeLabelCust.BackColor = System.Drawing.Color.Transparent;
+            this.welcomeLabelCust.Font = new System.Drawing.Font("Arial Narrow", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.welcomeLabelCust.ForeColor = System.Drawing.Color.Transparent;
             this.welcomeLabelCust.Location = new System.Drawing.Point(4, 2);
             this.welcomeLabelCust.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.welcomeLabelCust.Name = "welcomeLabelCust";
-            this.welcomeLabelCust.Size = new System.Drawing.Size(141, 30);
+            this.welcomeLabelCust.Size = new System.Drawing.Size(130, 27);
             this.welcomeLabelCust.TabIndex = 36;
             this.welcomeLabelCust.Text = "Καλωσήρθες";
             // 
@@ -917,7 +918,7 @@ namespace HotelManagement
             // homeButtonCustBtn
             // 
             this.homeButtonCustBtn.BackColor = System.Drawing.Color.White;
-            this.homeButtonCustBtn.Font = new System.Drawing.Font("Yu Gothic UI", 14.75F, System.Drawing.FontStyle.Bold);
+            this.homeButtonCustBtn.Font = new System.Drawing.Font("Arial Narrow", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.homeButtonCustBtn.Location = new System.Drawing.Point(9, 142);
             this.homeButtonCustBtn.Margin = new System.Windows.Forms.Padding(4);
             this.homeButtonCustBtn.Name = "homeButtonCustBtn";
@@ -930,7 +931,7 @@ namespace HotelManagement
             // searchCustBtn
             // 
             this.searchCustBtn.BackColor = System.Drawing.Color.White;
-            this.searchCustBtn.Font = new System.Drawing.Font("Yu Gothic UI", 14.75F, System.Drawing.FontStyle.Bold);
+            this.searchCustBtn.Font = new System.Drawing.Font("Arial Narrow", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.searchCustBtn.Location = new System.Drawing.Point(9, 195);
             this.searchCustBtn.Margin = new System.Windows.Forms.Padding(4);
             this.searchCustBtn.Name = "searchCustBtn";
@@ -943,7 +944,7 @@ namespace HotelManagement
             // bookingsCustBtn
             // 
             this.bookingsCustBtn.BackColor = System.Drawing.Color.White;
-            this.bookingsCustBtn.Font = new System.Drawing.Font("Yu Gothic UI", 10.75F, System.Drawing.FontStyle.Bold);
+            this.bookingsCustBtn.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.bookingsCustBtn.Location = new System.Drawing.Point(9, 248);
             this.bookingsCustBtn.Margin = new System.Windows.Forms.Padding(4);
             this.bookingsCustBtn.Name = "bookingsCustBtn";
@@ -956,7 +957,7 @@ namespace HotelManagement
             // custAccBtn
             // 
             this.custAccBtn.BackColor = System.Drawing.Color.White;
-            this.custAccBtn.Font = new System.Drawing.Font("Yu Gothic UI", 10.75F, System.Drawing.FontStyle.Bold);
+            this.custAccBtn.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.custAccBtn.Location = new System.Drawing.Point(9, 301);
             this.custAccBtn.Margin = new System.Windows.Forms.Padding(4);
             this.custAccBtn.Name = "custAccBtn";
@@ -969,7 +970,7 @@ namespace HotelManagement
             // logoutBtn
             // 
             this.logoutBtn.BackColor = System.Drawing.Color.White;
-            this.logoutBtn.Font = new System.Drawing.Font("Yu Gothic UI", 10.75F, System.Drawing.FontStyle.Bold);
+            this.logoutBtn.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.logoutBtn.Location = new System.Drawing.Point(9, 354);
             this.logoutBtn.Margin = new System.Windows.Forms.Padding(4);
             this.logoutBtn.Name = "logoutBtn";
@@ -998,7 +999,7 @@ namespace HotelManagement
             // payBookingBtn
             // 
             this.payBookingBtn.BackColor = System.Drawing.Color.White;
-            this.payBookingBtn.Font = new System.Drawing.Font("Yu Gothic UI", 14.75F, System.Drawing.FontStyle.Bold);
+            this.payBookingBtn.Font = new System.Drawing.Font("Arial Narrow", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.payBookingBtn.Location = new System.Drawing.Point(151, 283);
             this.payBookingBtn.Margin = new System.Windows.Forms.Padding(4);
             this.payBookingBtn.Name = "payBookingBtn";
@@ -1011,13 +1012,13 @@ namespace HotelManagement
             // noPrevResvLabel
             // 
             this.noPrevResvLabel.AutoSize = true;
-            this.noPrevResvLabel.BackColor = System.Drawing.Color.Teal;
-            this.noPrevResvLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
+            this.noPrevResvLabel.BackColor = System.Drawing.Color.Transparent;
+            this.noPrevResvLabel.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.noPrevResvLabel.ForeColor = System.Drawing.Color.Transparent;
-            this.noPrevResvLabel.Location = new System.Drawing.Point(215, 498);
+            this.noPrevResvLabel.Location = new System.Drawing.Point(273, 508);
             this.noPrevResvLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.noPrevResvLabel.Name = "noPrevResvLabel";
-            this.noPrevResvLabel.Size = new System.Drawing.Size(460, 35);
+            this.noPrevResvLabel.Size = new System.Drawing.Size(363, 29);
             this.noPrevResvLabel.TabIndex = 46;
             this.noPrevResvLabel.Text = "Δεν βρέθηκαν κρατήσεις στο ιστορικό";
             // 
@@ -1028,35 +1029,35 @@ namespace HotelManagement
             this.dataGridView6.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView6.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             this.dataGridView6.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView6.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView6.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView6.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView6.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView6.Location = new System.Drawing.Point(23, 438);
             this.dataGridView6.MultiSelect = false;
             this.dataGridView6.Name = "dataGridView6";
             this.dataGridView6.ReadOnly = true;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView6.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView6.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView6.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView6.ShowCellErrors = false;
             this.dataGridView6.ShowCellToolTips = false;
@@ -1068,26 +1069,26 @@ namespace HotelManagement
             // prevResvLabel
             // 
             this.prevResvLabel.AutoSize = true;
-            this.prevResvLabel.BackColor = System.Drawing.Color.Teal;
-            this.prevResvLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
+            this.prevResvLabel.BackColor = System.Drawing.Color.Transparent;
+            this.prevResvLabel.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.prevResvLabel.ForeColor = System.Drawing.Color.Transparent;
-            this.prevResvLabel.Location = new System.Drawing.Point(237, 381);
+            this.prevResvLabel.Location = new System.Drawing.Point(284, 393);
             this.prevResvLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.prevResvLabel.Name = "prevResvLabel";
-            this.prevResvLabel.Size = new System.Drawing.Size(417, 35);
+            this.prevResvLabel.Size = new System.Drawing.Size(333, 29);
             this.prevResvLabel.TabIndex = 44;
             this.prevResvLabel.Text = "Ιστορικό παλαιότερων κρατήσεων";
             // 
             // noCurrResvLabel
             // 
             this.noCurrResvLabel.AutoSize = true;
-            this.noCurrResvLabel.BackColor = System.Drawing.Color.Teal;
-            this.noCurrResvLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
+            this.noCurrResvLabel.BackColor = System.Drawing.Color.Transparent;
+            this.noCurrResvLabel.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.noCurrResvLabel.ForeColor = System.Drawing.Color.Transparent;
-            this.noCurrResvLabel.Location = new System.Drawing.Point(223, 154);
+            this.noCurrResvLabel.Location = new System.Drawing.Point(273, 152);
             this.noCurrResvLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.noCurrResvLabel.Name = "noCurrResvLabel";
-            this.noCurrResvLabel.Size = new System.Drawing.Size(445, 35);
+            this.noCurrResvLabel.Size = new System.Drawing.Size(354, 29);
             this.noCurrResvLabel.TabIndex = 43;
             this.noCurrResvLabel.Text = "Δεν βρέθηκαν κρατήσεις σε αναμονή";
             // 
@@ -1098,35 +1099,35 @@ namespace HotelManagement
             this.dataGridView5.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView5.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             this.dataGridView5.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView5.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView5.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView5.Location = new System.Drawing.Point(23, 79);
             this.dataGridView5.MultiSelect = false;
             this.dataGridView5.Name = "dataGridView5";
             this.dataGridView5.ReadOnly = true;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView5.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView5.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView5.ShowCellErrors = false;
             this.dataGridView5.ShowCellToolTips = false;
@@ -1138,20 +1139,20 @@ namespace HotelManagement
             // currResvLabel
             // 
             this.currResvLabel.AutoSize = true;
-            this.currResvLabel.BackColor = System.Drawing.Color.Teal;
-            this.currResvLabel.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
+            this.currResvLabel.BackColor = System.Drawing.Color.Transparent;
+            this.currResvLabel.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currResvLabel.ForeColor = System.Drawing.Color.Transparent;
-            this.currResvLabel.Location = new System.Drawing.Point(272, 30);
+            this.currResvLabel.Location = new System.Drawing.Point(321, 31);
             this.currResvLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.currResvLabel.Name = "currResvLabel";
-            this.currResvLabel.Size = new System.Drawing.Size(346, 35);
+            this.currResvLabel.Size = new System.Drawing.Size(272, 29);
             this.currResvLabel.TabIndex = 41;
             this.currResvLabel.Text = "Οι τρέχουσες κρατήσεις μου";
             // 
             // cancelBooking
             // 
             this.cancelBooking.BackColor = System.Drawing.Color.White;
-            this.cancelBooking.Font = new System.Drawing.Font("Yu Gothic UI", 14.75F, System.Drawing.FontStyle.Bold);
+            this.cancelBooking.Font = new System.Drawing.Font("Arial Narrow", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.cancelBooking.Location = new System.Drawing.Point(503, 282);
             this.cancelBooking.Margin = new System.Windows.Forms.Padding(4);
             this.cancelBooking.Name = "cancelBooking";
@@ -1211,35 +1212,35 @@ namespace HotelManagement
             this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView4.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             this.dataGridView4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridView4.Location = new System.Drawing.Point(151, 256);
             this.dataGridView4.MultiSelect = false;
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.ReadOnly = true;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
-            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView4.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView4.ShowCellErrors = false;
             this.dataGridView4.ShowCellToolTips = false;
@@ -1657,7 +1658,7 @@ namespace HotelManagement
             this.label21.Location = new System.Drawing.Point(83, 36);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(725, 35);
+            this.label21.Size = new System.Drawing.Size(730, 35);
             this.label21.TabIndex = 42;
             this.label21.Text = "Καλωσορίσατε στην πλατφόρμα κρατήσεων του Uniwa Hotel";
             // 
@@ -2072,7 +2073,7 @@ namespace HotelManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Teal;
+            this.BackColor = System.Drawing.Color.SlateGray;
             this.ClientSize = new System.Drawing.Size(1153, 750);
             this.Controls.Add(this.customerPanel);
             this.Controls.Add(this.employeePanel);
