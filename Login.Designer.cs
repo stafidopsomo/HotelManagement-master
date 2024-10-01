@@ -46,24 +46,26 @@ namespace HotelManagement
             // userL
             // 
             this.userL.AutoSize = true;
-            this.userL.BackColor = System.Drawing.Color.Teal;
-            this.userL.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
+            this.userL.BackColor = System.Drawing.Color.Transparent;
+            this.userL.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.userL.ForeColor = System.Drawing.Color.Transparent;
-            this.userL.Location = new System.Drawing.Point(157, 199);
+            this.userL.Location = new System.Drawing.Point(152, 205);
+            this.userL.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.userL.Name = "userL";
-            this.userL.Size = new System.Drawing.Size(135, 35);
+            this.userL.Size = new System.Drawing.Size(116, 29);
             this.userL.TabIndex = 0;
             this.userL.Text = "Username:";
             // 
             // passL
             // 
             this.passL.AutoSize = true;
-            this.passL.BackColor = System.Drawing.Color.Teal;
-            this.passL.Font = new System.Drawing.Font("Yu Gothic UI", 18.25F, System.Drawing.FontStyle.Bold);
+            this.passL.BackColor = System.Drawing.Color.Transparent;
+            this.passL.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.passL.ForeColor = System.Drawing.Color.Transparent;
-            this.passL.Location = new System.Drawing.Point(155, 288);
+            this.passL.Location = new System.Drawing.Point(150, 294);
+            this.passL.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.passL.Name = "passL";
-            this.passL.Size = new System.Drawing.Size(128, 35);
+            this.passL.Size = new System.Drawing.Size(113, 29);
             this.passL.TabIndex = 0;
             this.passL.Text = "Password:";
             // 
@@ -72,6 +74,7 @@ namespace HotelManagement
             this.userTB.BackColor = System.Drawing.Color.SeaShell;
             this.userTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userTB.Location = new System.Drawing.Point(157, 237);
+            this.userTB.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.userTB.MaxLength = 40;
             this.userTB.Name = "userTB";
             this.userTB.Size = new System.Drawing.Size(200, 26);
@@ -82,17 +85,19 @@ namespace HotelManagement
             this.passTB.BackColor = System.Drawing.Color.SeaShell;
             this.passTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passTB.Location = new System.Drawing.Point(155, 326);
+            this.passTB.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.passTB.MaxLength = 40;
             this.passTB.Name = "passTB";
             this.passTB.PasswordChar = '•';
-            this.passTB.Size = new System.Drawing.Size(205, 26);
+            this.passTB.Size = new System.Drawing.Size(206, 26);
             this.passTB.TabIndex = 2;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Yu Gothic UI", 14.75F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(177, 401);
+            this.button1.Location = new System.Drawing.Point(178, 401);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 40);
             this.button1.TabIndex = 4;
@@ -104,7 +109,8 @@ namespace HotelManagement
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Yu Gothic UI", 14.75F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(177, 526);
+            this.button2.Location = new System.Drawing.Point(178, 526);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 40);
             this.button2.TabIndex = 5;
@@ -115,7 +121,8 @@ namespace HotelManagement
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(332, 371);
+            this.checkBox1.Location = new System.Drawing.Point(297, 361);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 3;
@@ -125,24 +132,26 @@ namespace HotelManagement
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Teal;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(170, 365);
+            this.label1.Location = new System.Drawing.Point(153, 355);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 23);
+            this.label1.Size = new System.Drawing.Size(140, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Εμφάνιση κωδικού";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Teal;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(163, 493);
+            this.label2.Location = new System.Drawing.Point(174, 488);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(189, 23);
+            this.label2.Size = new System.Drawing.Size(167, 22);
             this.label2.TabIndex = 7;
             this.label2.Text = "Δεν έχετε λογαριασμό;";
             // 
@@ -150,8 +159,9 @@ namespace HotelManagement
             // 
             this.pictureBox1.Image = global::HotelManagement.Properties.Resources.icon4;
             this.pictureBox1.Location = new System.Drawing.Point(176, 25);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(165, 127);
+            this.pictureBox1.Size = new System.Drawing.Size(166, 127);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -160,7 +170,7 @@ namespace HotelManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Teal;
+            this.BackColor = System.Drawing.Color.SlateGray;
             this.ClientSize = new System.Drawing.Size(516, 601);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
@@ -173,6 +183,7 @@ namespace HotelManagement
             this.Controls.Add(this.passL);
             this.Controls.Add(this.userL);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UNIWA Hotel Login";
